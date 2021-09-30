@@ -1,9 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { GetMedia } from '../_models/getMedia';
-import { Media } from '../_models/media';
-import { MediaType } from '../_models/mediaType';
-import { MediaService } from '../_services/media.service';
-
+import { GetMedia } from 'src/app/_models/getMedia';
+import { Media } from 'src/app/_models/media';
+import { MediaType } from 'src/app/_models/mediaType';
+import { MediaService } from 'src/app/_services/media.service';
 
 @Component({
   selector: 'app-tv-shows',

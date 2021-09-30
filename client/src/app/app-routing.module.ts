@@ -2,10 +2,9 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { NotFoundComponent } from './errors/not-found/not-found.component';
 import { ServerErrorComponent } from './errors/server-error/server-error.component';
-import { MediaComponent } from './media/media.component';
-import { MoviesComponent } from './movies/movies.component';
-import { TvShowsComponent } from './tv-shows/tv-shows.component';
-
+import { MediaComponent } from './features/media/media.component';
+import { MoviesComponent } from './features/movies/movies.component';
+import { TvShowsComponent } from './features/tv-shows/tv-shows.component';
 const routes: Routes = [
   { path: '', component: MediaComponent },
   { path: 'movies', component: MoviesComponent },

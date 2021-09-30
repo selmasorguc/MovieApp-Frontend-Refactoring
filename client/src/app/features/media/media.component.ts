@@ -1,10 +1,10 @@
-import { GetMedia } from './../_models/getMedia';
+import { GetMedia } from '../../_models/getMedia';
 import { Component, OnInit } from '@angular/core';
 import { ToastrService } from 'ngx-toastr';
-import { Media } from '../_models/media';
-import { MediaService } from '../_services/media.service';
-import { SearchService } from '../_services/search.service';
-import { MediaType } from '../_models/mediaType';
+import { Media } from '../../_models/media';
+import { MediaService } from '../../_services/media.service';
+import { SearchService } from '../../_services/search.service';
+import { MediaType } from '../../_models/mediaType';
 
 @Component({
   selector: 'app-media',
