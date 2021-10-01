@@ -12,35 +12,37 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { RatingModule } from 'ngx-bootstrap/rating';
 import { TabsModule } from 'ngx-bootstrap/tabs';
 import { ToastrModule } from 'ngx-toastr';
+import { ServerErrorComponent } from '../errors/server-error/server-error.component';
+import { NotFoundComponent } from '../errors/not-found/not-found.component';
+import { RouterModule } from '@angular/router';
 
 
 
 @NgModule({
   declarations: [
-    NavComponent
+    NavComponent,
+    NotFoundComponent,
+    ServerErrorComponent
   ],
   imports: [
     CommonModule, 
-    AppRoutingModule,
     FormsModule,
-    CommonModule,
-    RatingModule.forRoot(),
     ReactiveFormsModule,
     NgbModule,
     ToastrModule.forRoot(),
     Ng2SearchPipeModule,
     TabsModule.forRoot(),
     BrowserAnimationsModule,
-    NgxSpinnerModule
+    NgxSpinnerModule,
+    RouterModule
   ],
   exports: [
     NavComponent,
-    CommonModule,
+    NotFoundComponent,
+    ServerErrorComponent,
     TabsModule,
-    RatingModule,
     FormsModule,
     ReactiveFormsModule,
-    RatingModule,
     NgbModule,
     ToastrModule,
     Ng2SearchPipeModule,

@@ -9,33 +9,24 @@ import { NotFoundComponent } from './shared/errors/not-found/not-found.component
 import { RatingModule } from 'ngx-bootstrap/rating';
 import { ServerErrorComponent } from './shared/errors/server-error/server-error.component';
 import { SharedModule } from './shared/shared-module/shared.module';
-import { SearchListComponent } from './features/search/search-list/search-list.component';
-import { MediaCardComponent } from './features/top-rated/media-card/media-card.component';
-import { TvShowsComponent } from './features/top-rated/tv-shows/tv-shows.component';
-import { MoviesComponent } from './features/top-rated/movies/movies.component';
+import { SearchModule } from './features/search/search.module';
+import { TopRatedModule } from './features/top-rated/top-rated.module';
+import { MediaCardComponent } from './features/single-media/media-card/media-card.component';
+import { SingleMediaModule } from './features/single-media/single-media.module';
 
 
 
 @NgModule({
   declarations: [
-    AppComponent,
-    SearchListComponent,
-    NotFoundComponent,
-    ServerErrorComponent,
-    MediaComponent,
-    MediaCardComponent,
-    TvShowsComponent,
-    SearchListComponent,
-    MoviesComponent
+    AppComponent
   ],
   imports: [
-    BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    TabsModule.forRoot(),
     RatingModule.forRoot(),
-    SharedModule
-    ],
+    SharedModule,
+    TopRatedModule 
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })
