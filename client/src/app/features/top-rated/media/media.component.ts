@@ -25,14 +25,14 @@ export class MediaComponent implements OnInit {
 
 
   constructor(private moviesService: MediaService,
-    private searchService: SearchService,
     private toastr: ToastrService) { }
   
   ngOnInit(): void {
     this.loadMovies();
     this.loadTVShows();
   }
-
+  
+//Da li bi mogla mergati loadMovies i tvshows nekako
   loadMovies() {
     this.moviesService.getMedia(this.getMoviesParams).subscribe((response) => {
       this.movies = response;
