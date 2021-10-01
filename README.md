@@ -24,14 +24,14 @@ https://github.com/selmasorguc/MovieApp-Backend-Refactoring
 More info  on https://angular.io/guide/setup-local
 
 - After you open the repo in VS Code open the Command terminal (Ctrl + `), then run the ng serve command
-- 
+
 
 ![Screenshot_10](https://user-images.githubusercontent.com/89447689/135611421-787ac541-1afc-4240-b62d-e6f70575c657.png)
 
  
  
 #### Important:
-After you run the Api successfully, check the url on which it runs and set up the same url in .\client\src\environments\environment.ts
+ - After you run the Api successfully, check the url on which it runs and set up the same url in .\client\src\environments\environment.ts
 
 
 ![Screenshot_11](https://user-images.githubusercontent.com/89447689/135611489-9c84b4f5-7476-4eb5-8a50-7b9a4a209d5b.png)
