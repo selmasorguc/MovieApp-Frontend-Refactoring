@@ -11,7 +11,7 @@ import { ToastrModule } from 'ngx-toastr';
 import { ServerErrorComponent } from '../errors/server-error/server-error.component';
 import { NotFoundComponent } from '../errors/not-found/not-found.component';
 import { RouterModule } from '@angular/router';
-import { LoginComponent } from 'src/app/login/login.component';
+import { LoginComponent } from 'src/app/shared/login/login.component';
 
 
 
@@ -24,7 +24,6 @@ import { LoginComponent } from 'src/app/login/login.component';
   ],
   imports: [
     CommonModule, 
-    FormsModule,
     ReactiveFormsModule,
     NgbModule,
     ToastrModule.forRoot(),

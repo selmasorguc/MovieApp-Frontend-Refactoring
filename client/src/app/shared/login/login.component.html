@@ -1,0 +1,19 @@
+<form [formGroup] = "loginForm" 
+      *ngIf="!isLoggedIn"
+      class="form-inline mt-2 mt-md-0" 
+      (ngSubmit)="login()">
+
+    <input formControlName="username" 
+           placeholdername="username" 
+           class="form-control mr-sm-2" 
+           type="text" 
+           placeholder="Username">
+
+    <input formControlName="password"
+           name="password" 
+           class="form-control mr-sm-2" 
+           type="password" 
+           placeholder="Password">
+           
+    <button class="btn btn-success my-2 my-sm-0" type="submit">Login</button>
+  </form>

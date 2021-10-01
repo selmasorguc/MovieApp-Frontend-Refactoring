@@ -13,7 +13,7 @@ import { SearchModule } from './features/search/search.module';
 import { TopRatedModule } from './features/top-rated/top-rated.module';
 import { MediaCardComponent } from './features/single-media/media-card/media-card.component';
 import { SingleMediaModule } from './features/single-media/single-media.module';
-import { LoginComponent } from './login/login.component';
+import { LoginComponent } from './shared/login/login.component';
 
 
 
