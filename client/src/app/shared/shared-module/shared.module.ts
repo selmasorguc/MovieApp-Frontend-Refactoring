@@ -11,6 +11,7 @@ import { ToastrModule } from 'ngx-toastr';
 import { ServerErrorComponent } from '../errors/server-error/server-error.component';
 import { NotFoundComponent } from '../errors/not-found/not-found.component';
 import { RouterModule } from '@angular/router';
+import { LoginComponent } from 'src/app/login/login.component';
 
 
 
@@ -18,7 +19,8 @@ import { RouterModule } from '@angular/router';
   declarations: [
     NavComponent,
     NotFoundComponent,
-    ServerErrorComponent
+    ServerErrorComponent,
+    LoginComponent
   ],
   imports: [
     CommonModule, 
@@ -43,7 +45,8 @@ import { RouterModule } from '@angular/router';
     ToastrModule,
     Ng2SearchPipeModule,
     BrowserAnimationsModule,
-    NgxSpinnerModule
+    NgxSpinnerModule,
+    LoginComponent
   ]
 })
 export class SharedModule { }
