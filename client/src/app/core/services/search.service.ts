@@ -1,8 +1,8 @@
 import { HttpClient, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { GetMedia } from '../_models/getMedia';
-import { Media } from '../_models/media';
+import { GetMedia } from '../models/getMedia';
+import { Media } from '../models/media';
 
 @Injectable({
   providedIn: 'root'

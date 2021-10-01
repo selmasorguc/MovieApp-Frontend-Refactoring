@@ -1,10 +1,10 @@
-import { ServiceResponse } from './../_models/serviceResponse';
+import { ServiceResponse } from '../models/serviceResponse';
 import { HttpClient, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { GetMedia } from '../_models/getMedia';
-import { Media } from '../_models/media';
-import { Rating } from '../_models/rating';
+import { GetMedia } from '../models/getMedia';
+import { Media } from '../models/media';
+import { Rating } from '../models/rating';
 
 
 @Injectable({

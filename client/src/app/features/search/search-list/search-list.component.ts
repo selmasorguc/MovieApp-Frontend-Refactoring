@@ -1,9 +1,9 @@
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
 import { ToastrService } from 'ngx-toastr';
-import { GetMedia } from 'src/app/_models/getMedia';
-import { Media } from 'src/app/_models/media';
-import { SearchService } from 'src/app/_services/search.service';
+import { GetMedia } from 'src/app/core/models/getMedia';
+import { Media } from 'src/app/core/models/media';
+import { SearchService } from 'src/app/core/services/search.service';
 
 @Component({
   selector: 'app-search-list',

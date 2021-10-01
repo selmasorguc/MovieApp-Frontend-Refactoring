@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { GetMedia } from 'src/app/_models/getMedia';
-import { Media } from 'src/app/_models/media';
-import { MediaType } from 'src/app/_models/mediaType';
-import { MediaService } from 'src/app/_services/media.service';
+import { GetMedia } from 'src/app/core/models/getMedia';
+import { Media } from 'src/app/core/models/media';
+import { MediaType } from 'src/app/core/models/mediaType';
+import { MediaService } from 'src/app/core/services/media.service';
 
 @Component({
   selector: 'app-movies',

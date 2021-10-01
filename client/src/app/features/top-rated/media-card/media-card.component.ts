@@ -1,10 +1,10 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { ToastrService } from 'ngx-toastr';
 import { NgxSpinnerService } from "ngx-spinner";
-import { MediaService } from 'src/app/_services/media.service';
-import { Media } from 'src/app/_models/media';
-import { ServiceResponse } from 'src/app/_models/serviceResponse';
-import { Rating } from 'src/app/_models/rating';
+import { MediaService } from 'src/app/core/services/media.service';
+import { Media } from 'src/app/core/models/media';
+import { ServiceResponse } from 'src/app/core/models/serviceResponse';
+import { Rating } from 'src/app/core/models/rating';
 
 @Component({
   selector: 'app-media-card',
