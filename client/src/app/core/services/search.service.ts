@@ -1,6 +1,7 @@
 import { HttpClient, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
+import { environment } from 'src/environments/environment';
 import { GetMedia } from '../models/getMedia';
 import { Media } from '../models/media';
 
@@ -8,7 +9,7 @@ import { Media } from '../models/media';
   providedIn: 'root'
 })
 export class SearchService {
-  baseUrl: string = "https://localhost:44317/api/";
+  baseUrl: string = environment.baseUrl;
 
   constructor(private http: HttpClient) { }
 

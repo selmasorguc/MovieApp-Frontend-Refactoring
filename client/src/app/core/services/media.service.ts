@@ -5,13 +5,14 @@ import { RouterModule } from '@angular/router';
 import { GetMedia } from '../models/getMedia';
 import { Media } from '../models/media';
 import { Rating } from '../models/rating';
+import { environment } from 'src/environments/environment';
 
 
 @Injectable({
   providedIn: 'root'
 })
 export class MediaService {
-  baseUrl: string = "https://localhost:44317/api/";
+  baseUrl: string = environment.baseUrl;
   movies: any;
 
   constructor(private http: HttpClient, private router: RouterModule) { }
