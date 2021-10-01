@@ -14,7 +14,7 @@ VS Code
 
 - To be able to fetch the movie and tv show data please download the MovieApp Api from this Git Repo
 
-//github.com/selmasorguc/MovieApp-Backend-Refactoring
+https://github.com/selmasorguc/MovieApp-Backend-Refactoring
 
 
 - After you set up and run the Api (more info in the readme file of MovieApp Api on how to run the project), open this repo in VS Code.
@@ -26,7 +26,7 @@ More info  on https://angular.io/guide/setup-local
 - After you open the repo in VS Code open the Command terminal (Ctrl + `), then run the ng serve command
 - 
 
-https:![Screenshot_10](https://user-images.githubusercontent.com/89447689/135611421-787ac541-1afc-4240-b62d-e6f70575c657.png)
+![Screenshot_10](https://user-images.githubusercontent.com/89447689/135611421-787ac541-1afc-4240-b62d-e6f70575c657.png)
 
  
  
